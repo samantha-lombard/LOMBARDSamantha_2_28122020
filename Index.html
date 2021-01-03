@@ -13,29 +13,27 @@
             <img src="images/logo/Reservia@3x.png" alt="Logo Reservia" />
             <nav>
                 <ul>
-                    <li><a href="#Hébergements" class="bleu">Hébergements</a></li>
-                    <li><a href="#Activités" class="bleu">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
+                    <li><a href="#Hébergements" class="bleunav">Hébergements</a></li>
+                    <li><a href="#Activités" class="bleunav">Activités</a></li>
+                    <li><a href="#" id="inscr">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
         <section id="section1">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <p id="p">En plein centre ville ou en pleine nature</p>
             <form>
-                <div>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input type="text" name="Ville" class="Ville" placeholder="Marseille, France">
-                    <input type="submit" name="Rechercher" class="Rechercher" value="Rechercher">
+                <div id="sectionrecherche">
+                    <i class="fas fa-map-marker-alt" id="map"></i><input type="text" name="Ville" class="Ville" placeholder="Marseille, France" id="recherche"><input type="submit" name="Rechercher" class="Rechercher" value="Rechercher" id="bouton">
                 </div>
             </form>
-            <div>
-                Filtres <a href="#"><i class="fas fa-money-bill-wave"></i> Économique</a>
-                <a href="#"><i class="fas fa-child"></i> Familial</a>
-                <a href="#"><i class="fas fa-heart"></i> Romantique</a>
-                <a href="#"><i class="fas fa-dog"></i> Animaux autorisés</a>
+            <div id="filtres">
+                <span id="f">Filtres </span><a href="#" class="filtre"><i class="fas fa-money-bill-wave" id="money"></i> Économique</a>
+                <a href="#" class="filtre"><i class="fas fa-child" id="child"></i> <span class="bleu"> Familial</span></a>
+                <a href="#" class="filtre"><i class="fas fa-heart" id="heart"></i> Romantique</a>
+                <a href="#" class="filtre"><i class="fas fa-dog" id="dog"></i> Animaux autorisés</a>
             </div>
-            <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville
+            <i class="fas fa-info" id="i"></i> Plus de 500 logements sont disponibles dans cette ville
         </section>
         <section id="section2">
             <div id="Hébergements_à_Marseille">

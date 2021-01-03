@@ -10,9 +10,9 @@ header {
     margin-bottom: 30px;
 }
 
-:hover .bleu {
-    color: #0065FC;
-    border-top: 2px #0065FC solid;
+header img {
+    height: 50px;
+    width: 100px;
 }
 
 header ul {
@@ -34,9 +34,14 @@ header a {
     text-decoration: none;
 }
 
-header img {
-    height: 50px;
-    width: 100px;
+.bleunav:hover {
+    color: #0065FC;
+    border-top: 5px #0065FC solid;
+    padding-top: 43px;
+}
+
+#inscr {
+    color: #0065FC;
 }
 
 #section1 a {
@@ -45,7 +50,105 @@ header img {
     text-decoration: none;
 }
 
-#section1 i {
-    color: #0065FC;
+h1 {
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    font-size: 1.2em;
 }
 
+#p {
+    margin-top: 0.4rem;
+}
+
+#map {
+    padding: 11px;
+    border: 1px #F2F2F2 solid;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+    font-size: 1rem;
+}
+
+#recherche {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px #F2F2F2 solid;
+    margin-left: 0rem;
+}
+
+#bouton {
+    background-color: #0065FC;
+    color: white;
+    padding: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px #0065FC solid;
+    font-size: 1rem;
+}
+
+#sectionrecherche {
+    margin-bottom: 15px;
+}
+
+#f {
+    font-weight: bold;
+    padding-right: 25px;
+}
+
+#filtres {
+    padding-bottom: 20px;
+}
+
+#i {
+    color: #0065FC;
+    margin-right: 10px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 45px;
+    padding: 10px;
+}
+
+.filtre {
+    border: 2px #F2F2F2 solid;
+    border-radius: 30px;
+    padding: 10px 25px 10px 0px;
+    margin: 10px;
+}
+
+#money {
+    color: #0065FC;
+    border: 1px #DEEBFF solid;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    padding: 13px;
+    margin-right: 10px;
+}
+
+#child {
+    color: #0065FC;
+    border: 1px #DEEBFF solid;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    padding: 13px;
+    margin-right: 10px;
+}
+
+#heart {
+    color: #0065FC;
+    border: 1px #DEEBFF solid;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    padding: 13px;
+    margin-right: 10px;
+}
+
+#dog {
+    color: #0065FC;
+    border: 1px #DEEBFF solid;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    padding: 13px;
+    margin-right: 10px;
+}
+
+#section1 a:hover {
+    background-color: #DEEBFF;
+}
