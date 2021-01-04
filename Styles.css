@@ -56,6 +56,10 @@ h1 {
     font-size: 1.2em;
 }
 
+#section1 p {
+    padding-left: 0px;
+}
+
 #p {
     margin-top: 0.4rem;
 }
@@ -74,6 +78,10 @@ h1 {
     font-size: 1rem;
     border: 1px #F2F2F2 solid;
     margin-left: 0rem;
+}
+
+#section1 ::placeholder {
+    color: black;
 }
 
 #bouton {
@@ -113,34 +121,7 @@ h1 {
     margin: 10px;
 }
 
-#money {
-    color: #0065FC;
-    border: 1px #DEEBFF solid;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    padding: 13px;
-    margin-right: 10px;
-}
-
-#child {
-    color: #0065FC;
-    border: 1px #DEEBFF solid;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    padding: 13px;
-    margin-right: 10px;
-}
-
-#heart {
-    color: #0065FC;
-    border: 1px #DEEBFF solid;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    padding: 13px;
-    margin-right: 10px;
-}
-
-#dog {
+#money, #child, #heart, #dog {
     color: #0065FC;
     border: 1px #DEEBFF solid;
     border-radius: 30px;
@@ -151,4 +132,166 @@ h1 {
 
 #section1 a:hover {
     background-color: #DEEBFF;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+h3, p{
+    color: black;
+}
+
+#section2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.xeuro, .euro {
+    font-weight: bold;
+}
+
+.etoilebleu {
+    color: #0065FC;
+}
+
+.etoilegrise {
+    color: #F2F2F2;
+}
+
+.img {
+    height: 130px;
+    width: 230px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+.heb_bord {
+    border: 1px white solid;
+    width: 240px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px
+}
+
+#Hébergements {
+    padding-left: 25px;
+}
+
+#section2 h3, p {
+    padding-left: 15px;
+}
+
+#section2 h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#section2 p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.ensembleetoile {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#Hébergements_à_Marseille {
+    border: 1px #F2F2F2 solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    margin-top: 20px;
+    height: 620px;
+    width: 60%
+}
+
+#groupe_carte1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#groupe_carte2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+#aff {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.img2 {
+    height: 140px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pop_bord {
+    border: 1px #F2F2F2 solid;
+    width: 430px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px
+}
+
+aside {
+    height: 620px;
+    width: 35%;
+    border: 1px #F2F2F2 solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+#pop {
+    display: flex;
+    align-items: center;
+}
+
+aside i {
+    margin-left: auto;
+}
+
+.ensembleetoile2 {
+    padding-left: 15px;
+    padding-top: 65px;
+}
+
+.bloc {
+    display: flex;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
