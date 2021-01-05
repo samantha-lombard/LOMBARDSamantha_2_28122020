@@ -94,7 +94,7 @@ h1 {
 }
 
 #sectionrecherche {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #f {
@@ -110,28 +110,39 @@ h1 {
     color: #0065FC;
     margin-right: 10px;
     border: 2px #F2F2F2 solid;
-    border-radius: 45px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
 }
 
 .filtre {
     border: 2px #F2F2F2 solid;
     border-radius: 30px;
     padding: 10px 25px 10px 0px;
-    margin: 10px;
+    margin: 10px 35px 10px 10px;
 }
 
-#money, #child, #heart, #dog {
+#money, #heart, #dog {
     color: #0065FC;
     border: 1px #DEEBFF solid;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #DEEBFF;
-    padding: 13px;
-    margin-right: 10px;
+    padding: 11px;
+    margin-right: 15px;
+    margin-left: -2px;
 }
 
+#child {
+    color: #0065FC;
+    border: 1px #DEEBFF solid;
+    border-radius: 20px;
+    background-color: #DEEBFF;
+    padding: 11px 15px 11px 15px;
+    margin-right: 15px;
+    margin-left: -2px;
+}
 #section1 a:hover {
     background-color: #DEEBFF;
+    border: 2px #DEEBFF solid;
 }
 
 h2 {
@@ -146,7 +157,7 @@ p {
     font-size: 0.9em;
 }
 
-h3, p{
+h3, p {
     color: black;
 }
 
@@ -169,20 +180,21 @@ h3, p{
 
 .img {
     height: 130px;
-    width: 230px;
+    width: 270px;
     border-radius: 20px 20px 0px 0px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
     object-fit: cover;
 }
 
 .heb_bord {
     border: 1px white solid;
-    width: 240px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    width: 276px;
     border-radius: 20px;
     background-color: white;
-    margin: 5px
+    margin: 5px;
 }
 
 #Hébergements {
@@ -215,25 +227,26 @@ h3, p{
     padding-top: 20px;
     margin-top: 20px;
     height: 620px;
-    width: 60%
+    width: 67%
 }
 
 #groupe_carte1 {
     display: flex;
     justify-content: space-around;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
 }
 
 #groupe_carte2 {
     display: flex;
     justify-content: space-around;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 0px;
-    margin-right: 10px;
+    margin-right: 15px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 #aff {
@@ -242,45 +255,48 @@ h3, p{
 }
 
 .img2 {
-    height: 140px;
-    width: 110px;
+    height: 160px;
+    width: 140px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .pop_bord {
     border: 1px #F2F2F2 solid;
-    width: 430px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    width: 360px;
     border-radius: 20px;
     background-color: white;
-    margin: 5px
 }
 
 aside {
     height: 620px;
-    width: 35%;
+    width: 30%;
     border: 1px #F2F2F2 solid;
     border-radius: 20px;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 20px;
 }
 
 #pop {
     display: flex;
     align-items: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    width: 360px;
 }
 
 aside i {
     margin-left: auto;
 }
-
+    
 .ensembleetoile2 {
     padding-left: 15px;
     padding-top: 65px;
@@ -290,8 +306,76 @@ aside i {
     display: flex;
 }
 
+.texte {
+    padding-top: 10px;
+    padding-right: 60px;
+}
+
 #section2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+#section3 a {
+    text-decoration: none;
+}
+
+.grandeimg {
+    height: 330px;
+    width: 310px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#image2 {
+    height: 140px;
+    width: 310px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#image3 {
+    height: 100px;
+    width: 310px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.moyimg {
+    height: 120px;
+    width: 310px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.act_bord {
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    width: 310px;
+    padding: 0px;
+}
+
+#section3 h3 {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+#Activités_à_Marseille {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Fort {
+    margin-bottom: 37px;
+}
+
+#Dame {
+    margin-bottom: 37px;
+}
+
+#Activités {
+    margin-bottom: 25px;
 }
