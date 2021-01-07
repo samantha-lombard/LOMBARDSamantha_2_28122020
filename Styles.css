@@ -21,6 +21,8 @@ header ul {
 }
 
 header nav {
+    display: flex;
+    align-items: center;
     margin-left: auto;
 }
    
@@ -42,6 +44,7 @@ header a {
 
 #inscr {
     color: #0065FC;
+    margin-left: 25px;
 }
 
 #section1 {
