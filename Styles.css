@@ -12,7 +12,7 @@ header {
 
 header img {
     height: 50px;
-    width: 100px;
+    width: 8%;
 }
 
 header ul {
@@ -27,13 +27,15 @@ header nav {
 }
    
 header li {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 header a {
     color: black;
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .bleunav:hover {
@@ -43,8 +45,10 @@ header a {
 }
 
 #inscr {
+    font-weight: bold;
     color: #0065FC;
-    margin-left: 25px;
+    margin-left: 15px;
+    padding-right: 0px;
 }
 
 #section1 {
@@ -102,11 +106,12 @@ h1 {
 }
 
 #sectionrecherche {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #f {
     font-weight: bold;
+    margin-left: 10px;
     padding-right: 25px;
 }
 
@@ -148,6 +153,7 @@ h1 {
     margin-right: 15px;
     margin-left: -2px;
 }
+
 #section1 a:hover {
     background-color: #DEEBFF;
     border: 2px #DEEBFF solid;
@@ -193,25 +199,30 @@ h3, p {
 
 .img {
     height: 130px;
-    width: 270px;
+    width: 98%;
     border-radius: 20px 20px 0px 0px;
-    margin-left: 3px;
-    margin-top: 3px;
-    margin-right: 3px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
     object-fit: cover;
 }
 
 .heb_bord {
     border: 1px white solid;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
-    width: 276px;
     border-radius: 20px;
     background-color: white;
-    margin: 5px;
+    width: 100%;
 }
 
 #Hébergements {
-    padding-left: 25px;
+    padding-left: 4%;
+}
+
+#hébergements a {
+    width: 31%;
+    margin-top: 14px;
+    margin-bottom: 12px;
 }
 
 #section2 h3, p {
@@ -240,50 +251,46 @@ h3, p {
     padding-top: 20px;
     margin-top: 20px;
     height: 620px;
-    width: 67%
+    width: 67%;
 }
 
-#groupe_carte1 {
+#hébergements {
     display: flex;
-    justify-content: space-around;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 8px;
     flex-wrap: wrap;
-}
-
-#groupe_carte2 {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 15px;
-    margin-top: 0px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #aff {
-    padding-left: 25px;
+    padding-left: 4%;
     font-weight: bold;
+    display: flex;
+    margin-top: 30px;
 }
 
 .img2 {
-    height: 160px;
-    width: 140px;
+    height: 155px;
+    width: 40%;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
-    margin-left: 3px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .pop_bord {
     border: 1px #F2F2F2 solid;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
-    width: 360px;
+    width: 84%;
+    height: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     border-radius: 20px;
     background-color: white;
 }
+
 
 aside {
     height: 620px;
@@ -303,7 +310,9 @@ aside {
     align-items: center;
     margin-bottom: 0px;
     margin-top: 15px;
-    width: 360px;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 aside i {
@@ -312,7 +321,7 @@ aside i {
     
 .ensembleetoile2 {
     padding-left: 15px;
-    padding-top: 65px;
+    padding-top: 50px;
 }
 
 .bloc {
@@ -321,7 +330,7 @@ aside i {
 
 .texte {
     padding-top: 10px;
-    padding-right: 60px;
+    padding-right: 10px;
 }
 
 #section2 {
@@ -332,58 +341,67 @@ aside i {
 }
 
 #section3 {
-    width: 90%;
-    margin: auto;
+    width: 100%;
 }
 
 #section3 a {
     text-decoration: none;
 }
 
+#Activités_à_Marseille {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
 .grandeimg {
     height: 330px;
-    width: 310px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 #image2 {
     height: 140px;
-    width: 310px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 #image3 {
     height: 100px;
-    width: 310px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 .moyimg {
     height: 120px;
-    width: 310px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 .act_bord {
-    border-radius: 20px;
+    border-radius: 20px; 
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
-    width: 310px;
     padding: 0px;
+}
+
+#blocimg1 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#blocimg2 {
+    margin-left: 3%;
 }
 
 #section3 h3 {
     padding-left: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
-}
-
-#Activités_à_Marseille {
-    display: flex;
-    justify-content: space-between;
 }
 
 #Fort {
@@ -396,6 +414,7 @@ aside i {
 
 #Activités {
     margin-bottom: 25px;
+    margin-left: 5%;
 }
 
 footer ul {
@@ -424,10 +443,10 @@ footer {
 }
 
 #propos {
-    padding-left: 75px;
-    padding-right: 215px;
+    margin-left: 5%;
+    margin-right: 16%;
 }
 
 #NosHeb {
-    padding-right: 300px;
+    margin-right: 21%;
 }
