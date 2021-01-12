@@ -1,7 +1,27 @@
+/*Body*/
+
 body {
     font-family: 'Raleway', sans-serif;
     width: 1500px;
 }
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+h3, p {
+    color: black;
+}
+
+/*Header*/
 
 header {
     width: 90%;
@@ -51,6 +71,8 @@ header a {
     margin-left: 15px;
     padding-right: 0px;
 }
+
+/*Section 1*/
 
 #section1 {
     width: 90%;
@@ -161,21 +183,7 @@ h1 {
     border: 2px #DEEBFF solid;
 }
 
-h2 {
-    font-size: 1.2em;
-}
-
-h3 {
-    font-size: 1em;
-}
-
-p {
-    font-size: 0.9em;
-}
-
-h3, p {
-    color: black;
-}
+/*Section 2*/
 
 #section2 {
     width: 90%;
@@ -331,6 +339,8 @@ aside i {
     margin-bottom: 50px;
 }
 
+/*Section 3*/
+
 #section3 {
     width: 90%;
     margin: auto;
@@ -397,6 +407,8 @@ aside i {
 #Activités {
     margin-bottom: 25px;
 }
+
+/*Footer*/
 
 footer ul {
     list-style-type: none;
