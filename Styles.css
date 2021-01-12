@@ -61,7 +61,7 @@ header a {
 
 .bleunav:hover {
     color: #0065FC;
-    border-top: 5px #0065FC solid;
+    border-top: 3px #0065FC solid;
     padding-top: 43px;
 }
 
@@ -442,4 +442,77 @@ footer {
 
 #NosHeb {
     padding-right: 300px;
+}
+
+/*Responsive mobile*/
+
+@media all and (max-width: 480px) {
+
+body {
+    width: 100%;
+    margin: auto;
+}
+    
+header {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    border-bottom: 3px #F2F2F2 solid;
+}
+
+header li {
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+}
+ 
+header nav :nth-child(1) {
+    order: 1;
+}
+
+header img {
+    margin-left: 5%;
+    width: 25%;
+}
+
+#boheb {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#boact {
+    padding-left: 80px;
+    padding-right: 95px;
+}
+
+.bleunav:hover {
+    border-top: none;
+    border-bottom: 3px #0065FC solid;
+    padding-bottom: 20px;
+}
+ 
+#inscr {
+    position: relative;
+    top: -30px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 0px;
+}
+
 }
