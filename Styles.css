@@ -28,13 +28,15 @@ header nav {
 }
    
 header li {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 header a {
     color: black;
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .bleunav:hover {
@@ -44,8 +46,10 @@ header a {
 }
 
 #inscr {
+    font-weight: bold;
     color: #0065FC;
-    margin-left: 25px;
+    margin-left: 15px;
+    padding-right: 0px;
 }
 
 #section1 {
@@ -103,11 +107,12 @@ h1 {
 }
 
 #sectionrecherche {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #f {
     font-weight: bold;
+    margin-left: 10px;
     padding-right: 25px;
 }
 
@@ -117,6 +122,7 @@ h1 {
 
 #i {
     color: #0065FC;
+    margin-left: 5px;
     margin-right: 10px;
     border: 2px #F2F2F2 solid;
     border-radius: 20px;
@@ -149,6 +155,7 @@ h1 {
     margin-right: 15px;
     margin-left: -2px;
 }
+
 #section1 a:hover {
     background-color: #DEEBFF;
     border: 2px #DEEBFF solid;
@@ -208,11 +215,11 @@ h3, p {
     width: 276px;
     border-radius: 20px;
     background-color: white;
-    margin: 5px;
+    margin-bottom: 15px;
 }
 
 #Hébergements {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 #section2 h3, p {
@@ -244,28 +251,20 @@ h3, p {
     width: 67%
 }
 
-#groupe_carte1 {
+#hébergements {
     display: flex;
-    justify-content: space-around;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 8px;
     flex-wrap: wrap;
-}
-
-#groupe_carte2 {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 15px;
-    margin-top: 0px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #aff {
-    padding-left: 25px;
+    padding-left: 20px;
     font-weight: bold;
+    display: flex;
+    margin-top: 30px;
 }
 
 .img2 {
