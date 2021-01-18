@@ -272,7 +272,7 @@ button {
     padding-top: 20px;
     margin-top: 20px;
     height: 600px;
-    width: 67%
+    width: 67%;
 }
 
 #hébergements {
@@ -747,7 +747,7 @@ footer {
         height: 120px; 
     }
     
-    #Dame, #Fort, {
+    #Dame, #Fort {
         margin-bottom: 10px;
     }
     
@@ -773,9 +773,9 @@ footer {
     
     }
     
-    /*RESPONSIVE "PETITE" TABLETTE*/
+/*RESPONSIVE "PETITE" TABLETTE*/
     
-    @media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     
     /*Body*/
             
@@ -972,7 +972,6 @@ footer {
         margin-right: auto;
         margin-top: 10px;
         margin-bottom: 20px;
-    
     }
     
     #Hébergements_à_Marseille {
@@ -1098,9 +1097,9 @@ footer {
     
     }
     
-    /*RESPONSIVE "GRANDE" TABLETTE*/
+/*RESPONSIVE "GRANDE" TABLETTE*/
     
-    @media (min-width: 769px) and (max-width: 1000px) {
+@media (min-width: 769px) and (max-width: 1199px) {
     
     /*Body*/
     
@@ -1297,5 +1296,5 @@ footer {
         width: 20%;
         margin: auto;
     }
-    
+
     }
