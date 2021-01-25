@@ -68,12 +68,6 @@ header a {
     padding-top: 43px;
 }
 
-#boheb {
-    color: #0065FC;
-    border-top: 3px #0065FC solid;
-    padding-top: 43px;
-}
-
 #inscr {
     font-weight: bold;
     color: #0065FC;
@@ -110,7 +104,7 @@ h1 {
 
 #map {
     padding: 11px;
-    border: 1px #F2F2F2 solid;
+    border: 1px #eeeded solid;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
     font-size: 1rem;
@@ -133,7 +127,7 @@ h1 {
     color: white;
     padding: 10px;
     border-radius: 0px 15px 15px 0px;
-    border: 1px #0065FC solid;
+    border: 1px #0264f8 solid;
     font-size: 1rem;
 }
 
@@ -176,7 +170,7 @@ button {
 
 #money, #heart, #dog {
     color: #0065FC;
-    border: 1px #DEEBFF solid;
+    border: 1px #d9e6f8 solid;
     border-radius: 20px;
     background-color: #DEEBFF;
     padding: 11px;
@@ -186,7 +180,7 @@ button {
 
 #child {
     color: #0065FC;
-    border: 1px #DEEBFF solid;
+    border: 1px #d9e6f8 solid;
     border-radius: 20px;
     background-color: #DEEBFF;
     padding: 11px 15px 11px 15px;
@@ -196,7 +190,7 @@ button {
 
 #section1 a:hover {
     background-color: #DEEBFF;
-    border: 2px #DEEBFF solid;
+    border: 2px #d9e6f8 solid;
 }
 
 /*Section 2*/
@@ -234,7 +228,7 @@ button {
 }
 
 .heb_bord {
-    border: 1px white solid;
+    border: 1px whitesmoke solid;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
     width: 206px;
     border-radius: 20px;
@@ -311,10 +305,10 @@ button {
     margin-right: 30px;
 }
 
-aside {
+article {
     height: 600px;
     width: 30%;
-    border: 1px #F2F2F2 solid;
+    border: 1px #eeeded solid;
     border-radius: 20px;
     background-color: #F2F2F2;
     display: flex;
@@ -332,7 +326,7 @@ aside {
     width: 262px;
 }
 
-aside i {
+article i {
     margin-left: auto;
 }
     
@@ -516,7 +510,6 @@ footer {
         padding-left: 35px;
         padding-right: 25px;
         border-top: none;
-        border-bottom: 3px #0065FC solid;
         padding-bottom: 20px;
     
     }
@@ -644,7 +637,7 @@ footer {
         display: inherit;
         color: white;
         background-color: #0065FC;
-        border: 1px #0065FC solid;
+        border: 1px #0264f8 solid;
         border-radius: 15px;
         font-size: 1em;
         padding: 13px;
@@ -674,7 +667,7 @@ footer {
         margin-right: auto;
     }
     
-    aside {
+    article {
         width: 100%;
         border-radius: 0px;
         margin-top: 20px;
@@ -827,7 +820,6 @@ footer {
         padding-left: 85px;
         padding-right: 65px;
         border-top: none;
-        border-bottom: 3px #0065FC solid;
         padding-bottom: 20px;
     }
             
@@ -1002,14 +994,14 @@ footer {
         width: 170px;
     }
     
-    aside {
+    article {
         width: 100%;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
     }
     
-    aside h3 {
+    article h3 {
         font-size: 1em;
     }
     
@@ -1222,7 +1214,7 @@ footer {
         width: 180px;
     }
     
-    aside {
+    article {
         width: 100%;
         margin-top: 20px;
         margin-left: auto;
