@@ -3,221 +3,242 @@
 /*Body*/
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 1200px;
-    margin: auto;
-}
-
-h2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
     font-size: 1.2em;
-}
-
-h3 {
+  }
+  
+  h3 {
     font-size: 1em;
-}
-
-p {
+  }
+  
+  p {
     font-size: 0.9em;
-}
-
-h3, p {
+  }
+  
+  h3,
+  p {
     color: black;
-}
-
-/*Header*/
-
-header {
+  }
+  
+  /*Header*/
+  
+  header {
     width: 90%;
     margin: auto;
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-header img {
+  }
+  
+  header img {
     height: 50px;
     width: 100px;
-}
-
-header ul {
+  }
+  
+  header ul {
     display: flex;
     list-style-type: none;
-}
-
-header nav {
+  }
+  
+  header nav {
     display: flex;
     align-items: center;
     margin-left: auto;
-}
-   
-header li {
+  }
+  
+  header li {
     margin-left: 15px;
     margin-right: 15px;
-}
-
-header a {
+  }
+  
+  header a {
     color: black;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.bleunav:hover {
-    color: #0065FC;
-    border-top: 3px #0065FC solid;
+  }
+  
+  .bleunav:hover {
+    color: #0065fc;
+    border-top: 3px #0065fc solid;
     padding-top: 43px;
-}
-
-#inscr {
+  }
+  
+  #inscr {
     font-weight: bold;
-    color: #0065FC;
+    color: #0065fc;
     margin-left: 15px;
     padding-right: 0px;
-}
-
-/*Section 1*/
-
-#section1 {
+  }
+  
+  /*Section 1*/
+  
+  #section1 {
     width: 90%;
     margin: auto;
-}
-
-#section1 a {
+  }
+  
+  #section1 a {
     font-weight: bold;
     color: black;
     text-decoration: none;
-}
-
-h1 {
+  }
+  
+  h1 {
     padding-bottom: 0rem;
     margin-bottom: 0rem;
     font-size: 1.2em;
-}
-
-#section1 p {
+  }
+  
+  #section1 p {
     padding-left: 0px;
-}
-
-#p {
+  }
+  
+  #p {
     margin-top: 0.4rem;
-}
-
-#map {
+  }
+  
+  #map {
     padding: 11px;
     border: 1px #eeeded solid;
     border-radius: 15px 0px 0px 15px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     font-size: 1rem;
-}
-
-#recherche {
+  }
+  
+  #recherche {
     font-weight: bold;
     padding: 10px;
     font-size: 1rem;
-    border: 1px #F2F2F2 solid;
+    border: 1px #f2f2f2 solid;
     margin-left: 0rem;
-}
-
-#section1 ::placeholder {
+  }
+  
+  #section1 ::placeholder {
     color: black;
-}
-
-#bouton {
-    background-color: #0065FC;
+  }
+  
+  #bouton {
+    background-color: #0065fc;
     color: white;
     padding: 10px;
     border-radius: 0px 15px 15px 0px;
     border: 1px #0264f8 solid;
     font-size: 1rem;
-}
-
-button {
+  }
+  
+  button {
     display: none;
-}
-
-#sectionrecherche {
+  }
+  
+  #sectionrecherche {
     margin-bottom: 30px;
-}
-
-#f {
+  }
+  
+  #f {
     font-weight: bold;
     margin-left: 10px;
     padding-right: 25px;
-}
-
-#filtres {
+  }
+  
+  #filtres {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-bottom: 20px;
-}
-
-#i {
-    color: #0065FC;
+  }
+  
+  #i {
+    color: #0065fc;
     margin-left: 5px;
     margin-right: 10px;
-    border: 2px #F2F2F2 solid;
+    border: 2px #f2f2f2 solid;
     border-radius: 20px;
     padding: 5px 10px 5px 10px;
-}
-
-.filtre {
-    border: 2px #F2F2F2 solid;
+  }
+  
+  .filtre {
+    border: 2px #f2f2f2 solid;
     border-radius: 30px;
     padding: 10px 10px 10px 0px;
     margin: 10px 15px 10px 0px;
-}
-
-#money, #heart, #dog {
-    color: #0065FC;
+  }
+  
+  #money,
+  #heart,
+  #dog {
+    color: #0065fc;
     border: 1px #d9e6f8 solid;
     border-radius: 20px;
-    background-color: #DEEBFF;
+    background-color: #deebff;
     padding: 11px;
     margin-right: 5px;
     margin-left: -2px;
-}
-
-#child {
-    color: #0065FC;
+  }
+  
+  #child {
+    color: #0065fc;
     border: 1px #d9e6f8 solid;
     border-radius: 20px;
-    background-color: #DEEBFF;
+    background-color: #deebff;
     padding: 11px 15px 11px 15px;
     margin-right: 5px;
     margin-left: -2px;
-}
-
-#section1 a:hover {
-    background-color: #DEEBFF;
+  }
+  
+  #section1 a:hover {
+    background-color: #deebff;
     border: 2px #d9e6f8 solid;
-}
-
-/*Section 2*/
-
-#section2 {
+  }
+  
+  /*Section 2*/
+  
+  #grosse_section {
     width: 90%;
     margin: auto;
-}
-
-#section2 a {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #section2 {
+    border: 1px #f2f2f2 solid;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 600px;
+    width: 67%;
+    align-items: flex-end;
+    margin-bottom: 50px;
+  }
+  
+  #section2 a,
+  #sectpop a {
     color: black;
     text-decoration: none;
-}
-
-.xeuro, .euro {
+  }
+  
+  .xeuro,
+  .euro {
     font-weight: bold;
-}
-
-.etoilebleu {
-    color: #0065FC;
-}
-
-.etoilegrise {
-    color: #F2F2F2;
-}
-
-.img {
+  }
+  
+  .etoilebleu {
+    color: #0065fc;
+  }
+  
+  .etoilegrise {
+    color: #f2f2f2;
+  }
+  
+  .img {
     height: 120px;
     width: 200px;
     border-radius: 20px 20px 0px 0px;
@@ -225,67 +246,58 @@ button {
     margin-top: 3px;
     margin-right: 3px;
     object-fit: cover;
-}
-
-.heb_bord {
+  }
+  
+  .heb_bord {
     border: 1px whitesmoke solid;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
     width: 206px;
     border-radius: 20px;
     background-color: white;
     margin-bottom: 15px;
-}
-
-#Hébergements {
+  }
+  
+  #Hébergements {
     margin-left: 30px;
-}
-
-#section2 h3, p {
+  }
+  
+  #section2 h3,
+  p {
     padding-left: 10px;
-}
-
-#section2 h3 {
+  }
+  
+  #section2 h3 {
     margin-top: 3px;
     margin-bottom: 3px;
-}
-
-#section2 p {
+  }
+  
+  #section2 p {
     margin-top: 0px;
     margin-bottom: 3px;
-}
-
-.ensembleetoile {
+  }
+  
+  .ensembleetoile {
     padding-left: 10px;
     margin-bottom: 10px;
-}
-
-#Hébergements_à_Marseille {
-    border: 1px #F2F2F2 solid;
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    padding-top: 20px;
-    margin-top: 20px;
-    height: 600px;
-    width: 67%;
-}
-
-#hébergements {
+  }
+  
+  #hébergements {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 25px;
     margin-left: 30px;
     margin-right: 30px;
-}
-
-#aff {
+  }
+  
+  #aff {
     margin-left: 30px;
     font-weight: bold;
     display: flex;
     margin-top: 35px;
-}
-
-.img2 {
+  }
+  
+  .img2 {
     height: 152px;
     width: 100px;
     object-fit: cover;
@@ -293,999 +305,1025 @@ button {
     margin-left: 3px;
     margin-top: 3px;
     margin-bottom: 3px;
-}
-
-.pop_bord {
-    border: 1px #F2F2F2 solid;
+  }
+  
+  .pop_bord {
+    border: 1px #f2f2f2 solid;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
     width: 262px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
     margin-right: 30px;
-}
-
-article {
+  }
+  
+  #sectpop {
     height: 600px;
     width: 30%;
-    border: 1px #eeeded solid;
     border-radius: 20px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 20px;
-}
-
-#pop {
+    margin-top: 20px;
+  }
+  
+  #sectpop h3,
+  p {
+    padding-left: 10px;
+  }
+  
+  #sectpop h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+  #sectpop p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+  }
+  
+  #pop {
     display: flex;
     align-items: center;
     margin-bottom: 0px;
     margin-top: 15px;
     width: 262px;
-}
-
-article i {
+  }
+  
+  #sectpop i {
     margin-left: auto;
-}
-    
-.ensembleetoile2 {
+  }
+  
+  .ensembleetoile2 {
     padding-left: 10px;
     padding-top: 50px;
-}
-
-.bloc {
+  }
+  
+  .bloc {
     display: flex;
-}
-
-.texte {
+  }
+  
+  .texte {
     padding-top: 10px;
     padding-right: 5px;
-}
-
-#section2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 50px;
-}
-
-/*Section 3*/
-
-#section3 {
+  }
+  
+  /*Section 3*/
+  
+  #section3 {
     width: 90%;
     margin: auto;
-}
-
-#section3 a {
+  }
+  
+  #section3 a {
     text-decoration: none;
-}
-
-.grandeimg {
+  }
+  
+  .grandeimg {
     height: 330px;
     width: 245px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
-
-#image2 {
+  }
+  
+  #image2 {
     height: 144px;
     width: 245px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
-
-#image3 {
+  }
+  
+  #image3 {
     height: 103px;
     width: 245px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
-
-.moyimg {
+  }
+  
+  .moyimg {
     height: 123.5px;
     width: 245px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
-
-.act_bord {
+  }
+  
+  .act_bord {
     border-radius: 20px;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
     width: 245px;
     padding: 0px;
-}
-
-#section3 h3 {
+  }
+  
+  #section3 h3 {
     padding-left: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
-}
-
-#Activités_à_Marseille {
+  }
+  
+  #Activités_à_Marseille {
     display: flex;
     justify-content: space-between;
-}
-
-#Fort {
+  }
+  
+  #Fort {
     margin-bottom: 30px;
-}
-
-#Dame {
+  }
+  
+  #Dame {
     margin-bottom: 30px;
-}
-
-#Activités {
+  }
+  
+  #Activités {
     margin-bottom: 25px;
-}
-
-/*Footer*/
-
-footer ul {
+  }
+  
+  /*Footer*/
+  
+  footer ul {
     list-style-type: none;
     padding-left: 0px;
     padding-top: 5px;
-}
-
-footer a {
+  }
+  
+  footer a {
     color: black;
     text-decoration: none;
-}
-
-footer li {
+  }
+  
+  footer li {
     padding-bottom: 10px;
-}
-
-footer {
+  }
+  
+  footer {
     width: 100%;
     display: flex;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 40px;
-}
-
-#propos {
+  }
+  
+  #propos {
     margin-left: 60px;
     margin-right: 160px;
-}
-
-#NosHeb {
+  }
+  
+  #NosHeb {
     margin-right: 210px;
-}
-
-/*RESPONSIVE MOBILE*/
-
-@media (max-width: 480px) {
-
+  }
+  
+  /*RESPONSIVE MOBILE*/
+  
+  @media (max-width: 480px) {
     /*Body*/
-    
+  
     body {
-        width: 100%;
+      width: 100%;
     }
-    
+  
     h2 {
-        font-size: 1.1em;
+      font-size: 1.1em;
     }
-    
+  
     h3 {
-        font-size: 1em;
+      font-size: 1em;
     }
-    
+  
     /*Header*/
-    
+  
     header {
-        width: 100%;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 15px;
-        display: flex;
-        flex-direction: column;
+      width: 100%;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
     }
-    
+  
     header nav {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
     }
-    
+  
     header ul {
-        width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 15px;
-        padding-left: 0px;
-        padding-bottom: 20px;
-        border-bottom: 3px #F2F2F2 solid;
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 15px;
+      padding-left: 0px;
+      padding-bottom: 20px;
+      border-bottom: 3px #f2f2f2 solid;
     }
-    
+  
     header li {
-        width: 50%;
-        margin: 0px;
-        text-align: center;
+      width: 50%;
+      margin: 0px;
+      text-align: center;
     }
-    
+  
     #boheb {
-        padding-left: 35px;
-        padding-right: 25px;
-        border-top: none;
-        padding-bottom: 20px;
-    
+      padding-left: 35px;
+      padding-right: 25px;
+      border-top: none;
+      padding-bottom: 20px;
     }
-    
+  
     #boact {
-        padding-left: 40px;
-        padding-right: 55px;
+      padding-left: 40px;
+      padding-right: 55px;
     }
-    
+  
     header nav :nth-child(1) {
-        order: 1;
+      order: 1;
     }
-    
+  
     header a {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-    
+  
     header img {
-        margin-left: 7.5%;
-        width: 26%;
-        max-width: 130px;
+      margin-left: 7.5%;
+      width: 26%;
+      max-width: 130px;
     }
-    
+  
     .bleunav:hover {
-        border-top: none;
-        border-bottom: 3px #0065FC solid;
-        padding-bottom: 20px;
+      border-top: none;
+      border-bottom: 3px #0065fc solid;
+      padding-bottom: 20px;
     }
-     
+  
     #inscr {
-        position: relative;
-        top: -30px;
-        margin-left: auto;
-        margin-right: 7.5%;
-        margin-top: 0px;
+      position: relative;
+      top: -30px;
+      margin-left: auto;
+      margin-right: 7.5%;
+      margin-top: 0px;
     }
-    
+  
     /*Section 1*/
-    
+  
     #section1 {
-        width: 85%;
-        margin: auto;
+      width: 85%;
+      margin: auto;
     }
-    
+  
     h1 {
-        font-size: 1.1em;
-        margin-top: 0px;
-        margin-right: 10%;
-        margin-bottom: 15px;
+      font-size: 1.1em;
+      margin-top: 0px;
+      margin-right: 10%;
+      margin-bottom: 15px;
     }
-    
+  
     #section1 p {
-        font-size: 0.9em;
-        margin-bottom: 30px;
+      font-size: 0.9em;
+      margin-bottom: 30px;
     }
-    
+  
     #map {
-        font-size: 1em;
+      font-size: 1em;
     }
-    
+  
     #recherche {
-        font-size: 1em;
-        padding: 9px;
-        width: 62%;
-        padding-left: 25px;
+      font-size: 1em;
+      padding: 9px;
+      width: 62%;
+      padding-left: 25px;
     }
-    
+  
     #f {
-        margin-left: 0px;
-        margin-bottom: 10px;
+      margin-left: 0px;
+      margin-bottom: 10px;
     }
-    
+  
     #sectionrecherche {
-        margin-bottom: 35px;
-        display: flex;
-        flex-direction: row;
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: row;
     }
-    
+  
     #filtres {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
-    
+  
     #f_bord {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
-    
+  
     #section1 a {
-        font-size: 0.9em;
-        margin-left: 0px;
-        margin-right: 5px;
-        margin-bottom: 0px;
-        padding: 0px 10px 0px 0px;
+      font-size: 0.9em;
+      margin-left: 0px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      padding: 0px 10px 0px 0px;
     }
-    
+  
     #child {
-        padding-left: 12px;
-        padding-right: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
     }
-    
+  
     #f_bord i {
-        margin-right: 5px;
+      margin-right: 5px;
     }
-    
+  
     #i {
-        margin-left: 0px;
-        float: left;
+      margin-left: 0px;
+      float: left;
     }
-    
+  
     #info {
-        font-size: 0.7em;
-        margin-top: 15px;
-        margin-bottom: 15px;
+      font-size: 0.7em;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
-    
+  
     #bouton {
-        display: none;
+      display: none;
     }
-    
+  
     button {
-        display: inherit;
-        color: white;
-        background-color: #0065FC;
-        border: 1px #0264f8 solid;
-        border-radius: 15px;
-        font-size: 1em;
-        padding: 13px;
-        margin-left: -13px;
+      display: inherit;
+      color: white;
+      background-color: #0065fc;
+      border: 1px #0264f8 solid;
+      border-radius: 15px;
+      font-size: 1em;
+      padding: 13px;
+      margin-left: -13px;
     }
-    
+  
     /*Section 2*/
-    
+  
+    #grosse_section {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
     #section2 {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
+      width: 100%;
+      height: auto;
+      background-color: white;
+      border: none;
     }
-    
-    #section2 p {
-        font-size: 0.9em;
+  
+    #section2 p,
+    #sectpop p {
+      font-size: 0.9em;
     }
-    
-    #section2 i {
-        font-size: 0.9em;
+  
+    #section2 i,
+    #sectpop i {
+      font-size: 0.9em;
     }
-    
+  
     #aff {
-        font-size: 0.9em;
-        width: 265px;
-        margin-left: auto;
-        margin-right: auto;
+      font-size: 0.9em;
+      width: 265px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
-    article {
-        width: 100%;
-        border-radius: 0px;
-        margin-top: 20px;
+  
+    #sectpop {
+      width: 100%;
+      border-radius: 0px;
+      margin-top: 20px;
     }
-    
+  
     #pop {
-        width: 265px;
+      width: 265px;
     }
-    
+  
     .pop_bord {
-        width: 265px;
+      width: 265px;
     }
-    
-    #Hébergements_à_Marseille {
-        width: 100%;
-        height: auto; 
-        background-color: white;
-        border: none;
-    }
-    
+  
     #Hébergements {
-        width: 265px;
-        margin: auto;
-        margin-bottom: 25px;
-        padding-left: 0px;
+      width: 265px;
+      margin: auto;
+      margin-bottom: 25px;
+      padding-left: 0px;
     }
-    
+  
     #hébergements {
-        width: 265px;
-        margin: auto;
+      width: 265px;
+      margin: auto;
     }
-    
+  
     .heb_bord {
-        width: 265px;
-        margin: auto;
-        margin-bottom: 15px;
+      width: 265px;
+      margin: auto;
+      margin-bottom: 15px;
     }
-    
+  
     .img {
-        width: 259px;
+      width: 259px;
     }
-    
+  
     /*Section 3*/
-    
+  
     #Activités_à_Marseille {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
-    
+  
     #section3 h2 {
-        width: 265px;
-        margin-left: auto;
-        margin-right: auto;
+      width: 265px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
+  
     .act_bord {
-        width: 265px;
-        margin-left: auto;
-        margin-right: auto;
+      width: 265px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
-    .grandeimg, .moyimg {
-        width: 265px;
-        height: 120px;
+  
+    .grandeimg,
+    .moyimg {
+      width: 265px;
+      height: 120px;
     }
-    
-    #image2, #image3 {
-        width: 265px;
-        height: 120px; 
+  
+    #image2,
+    #image3 {
+      width: 265px;
+      height: 120px;
     }
-    
-    #Dame, #Fort {
-        margin-bottom: 10px;
+  
+    #Dame,
+    #Fort {
+      margin-bottom: 10px;
     }
-    
+  
     /*Footer*/
-    
+  
     footer {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
-    
-    #propos, #NosHeb, #Assistance {
-        margin-left: 30px;
-        margin-right: 0px;
+  
+    #propos,
+    #NosHeb,
+    #Assistance {
+      margin-left: 30px;
+      margin-right: 0px;
     }
-    
+  
     footer h3 {
-        font-size: 1em;
+      font-size: 1em;
     }
-    
+  
     footer a {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-    
-    }
-    
-/*RESPONSIVE "PETITE" TABLETTE*/
-    
-@media (min-width: 481px) and (max-width: 768px) {
-    
+  }
+  
+  /*RESPONSIVE "PETITE" TABLETTE*/
+  
+  @media (min-width: 481px) and (max-width: 768px) {
     /*Body*/
-            
+  
     body {
-        width: 100%;
+      width: 100%;
     }
-        
+  
     h2 {
-        font-size: 1.2em;
+      font-size: 1.2em;
     }
-            
+  
     h3 {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-            
+  
     /*Header*/
-            
+  
     header {
-        width: 100%;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 15px;
-        display: flex;
-        flex-direction: column;
+      width: 100%;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
     }
-            
+  
     header nav {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
     }
-            
+  
     header ul {
-        width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 15px;
-        padding-left: 0px;
-        padding-bottom: 20px;
-        border-bottom: 3px #F2F2F2 solid;
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 15px;
+      padding-left: 0px;
+      padding-bottom: 20px;
+      border-bottom: 3px #f2f2f2 solid;
     }
-            
+  
     header li {
-        width: 50%;
-        margin: 0px;
-        text-align: center;
+      width: 50%;
+      margin: 0px;
+      text-align: center;
     }
-            
+  
     #boheb {
-        padding-left: 85px;
-        padding-right: 65px;
-        border-top: none;
-        padding-bottom: 20px;
+      padding-left: 85px;
+      padding-right: 65px;
+      border-top: none;
+      padding-bottom: 20px;
     }
-            
+  
     #boact {
-        padding-left: 80px;
-        padding-right: 85px;
+      padding-left: 80px;
+      padding-right: 85px;
     }
-            
+  
     header nav :nth-child(1) {
-        order: 1;
+      order: 1;
     }
-            
+  
     header a {
-        font-size: 1em;
+      font-size: 1em;
     }
-            
+  
     header img {
-        margin-left: 7.5%;
-        width: 26%;
-        max-width: 130px;
+      margin-left: 7.5%;
+      width: 26%;
+      max-width: 130px;
     }
-            
+  
     .bleunav:hover {
-        border-top: none;
-        border-bottom: 3px #0065FC solid;
-        padding-bottom: 20px;
+      border-top: none;
+      border-bottom: 3px #0065fc solid;
+      padding-bottom: 20px;
     }
-             
+  
     #inscr {
-        position: relative;
-        top: -30px;
-        margin-left: auto;
-        margin-right: 7.5%;
-        margin-top: 0px;
+      position: relative;
+      top: -30px;
+      margin-left: auto;
+      margin-right: 7.5%;
+      margin-top: 0px;
     }
-        
+  
     /*Section 1*/
-    
+  
     #section1 {
-        width: 85%;
-        margin: auto;
+      width: 85%;
+      margin: auto;
     }
-    
+  
     h1 {
-        font-size: 1.2em;
-        margin-top: 0px;
-        margin-right: 10%;
-        margin-bottom: 15px;
+      font-size: 1.2em;
+      margin-top: 0px;
+      margin-right: 10%;
+      margin-bottom: 15px;
     }
-    
+  
     #section1 p {
-        font-size: 1em;
-        margin-bottom: 30px;
+      font-size: 1em;
+      margin-bottom: 30px;
     }
-    
+  
     #map {
-        font-size: 1.1em;
+      font-size: 1.1em;
     }
-    
+  
     #recherche {
-        font-size: 1.1em;
-        padding: 9px;
-        width: 62%;
-        padding-left: 25px;
+      font-size: 1.1em;
+      padding: 9px;
+      width: 62%;
+      padding-left: 25px;
     }
-    
+  
     #f {
-        margin-left: 0px;
-        margin-bottom: 10px;
+      margin-left: 0px;
+      margin-bottom: 10px;
     }
-    
+  
     #sectionrecherche {
-        margin-bottom: 35px;
-        display: flex;
-        flex-direction: row;
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: row;
     }
-    
+  
     #filtres {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
-    
+  
     #f_bord {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
-    
+  
     #section1 a {
-        font-size: 1em;
-        margin-left: 0px;
-        margin-right: 5px;
-        margin-bottom: 0px;
-        padding: 0px 10px 0px 0px;
+      font-size: 1em;
+      margin-left: 0px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      padding: 0px 10px 0px 0px;
     }
-    
+  
     #child {
-        padding-left: 12px;
-        padding-right: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
     }
-    
+  
     #f_bord i {
-        margin-right: 5px;
+      margin-right: 5px;
     }
-    
+  
     #i {
-        margin-left: 0px;
-        float: left;
+      margin-left: 0px;
+      float: left;
     }
-    
+  
     #info {
-        font-size: 0.8em;
-        margin-top: 15px;
-        margin-bottom: 15px;
+      font-size: 0.8em;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
-    
+  
     /*Section 2*/
-    
+  
+    #grosse_section {
+      width: 85%;
+      margin: auto;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+  
     #section2 {
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
     }
-    
-    #section2 p {
-        font-size: 0.9em;
+  
+    #section2 p,
+    #sectpop p {
+      font-size: 0.9em;
     }
-    
-    #section2 i {
-        font-size: 1em;
+  
+    #section2 i,
+    #sectpop i {
+      font-size: 1em;
     }
-    
+  
     #aff {
-        font-size: 1em;
-        width: 365px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
+      font-size: 1em;
+      width: 365px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 20px;
     }
-    
-    #Hébergements_à_Marseille {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto; 
-        height: auto; 
-    }
-    
+  
     #Hébergements {
-        width: 365px;
-        margin: auto;
-        margin-bottom: 25px;
-        padding-left: 0px;
+      width: 365px;
+      margin: auto;
+      margin-bottom: 25px;
+      padding-left: 0px;
     }
-    
+  
     #hébergements {
-        width: 365px;
-        margin: auto;
+      width: 365px;
+      margin: auto;
     }
-    
+  
     .heb_bord {
-        width: 176px;
-        margin: auto;
-        margin-bottom: 15px;
+      width: 176px;
+      margin: auto;
+      margin-bottom: 15px;
     }
-    
+  
     .img {
-        width: 170px;
+      width: 170px;
     }
-    
-    article {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
+  
+    #sectpop {
+      width: 100%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
-    article h3 {
-        font-size: 1em;
+  
+    #sectpop h3 {
+      font-size: 1em;
     }
-    
+  
     #pop {
-        width: 365px;
+      width: 365px;
     }
-    
+  
     .pop_bord {
-        width: 365px;
+      width: 365px;
     }
-    
+  
     .img2 {
-        width: 145px;
+      width: 145px;
     }
-    
+  
     .ensembleetoile2 {
-        padding-top: 60px;
+      padding-top: 60px;
     }
-    
+  
     #etoile {
-        padding-top: 45px;
+      padding-top: 45px;
     }
-    
+  
     /*Section 3*/
-    
+  
     #section3 {
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
+  
     #section3 h2 {
-        width: 365px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
+      width: 365px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
     }
-    
+  
     #Activités_à_Marseille {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
-    
+  
     .act_bord {
-        width: 365px;
-        margin-left: auto;
-        margin-right: auto;
+      width: 365px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
-    .grandeimg, .moyimg {
-        width: 365px;
-        height: 120px;
+  
+    .grandeimg,
+    .moyimg {
+      width: 365px;
+      height: 120px;
     }
-    
-    #image2, #image3 {
-        width: 365px;
-        height: 120px; 
+  
+    #image2,
+    #image3 {
+      width: 365px;
+      height: 120px;
     }
-    
-    #Vieux, #Iles, #Parc {
-        margin-bottom: 35px;
+  
+    #Vieux,
+    #Iles,
+    #Parc {
+      margin-bottom: 35px;
     }
-    
+  
     /*Footer*/
-    
+  
     footer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
     }
-    
-    #propos, #NosHeb, #Assistance {
-        margin-left: 60px;
-        margin-right: 0px;
+  
+    #propos,
+    #NosHeb,
+    #Assistance {
+      margin-left: 60px;
+      margin-right: 0px;
     }
-    
+  
     footer h3 {
-        font-size: 1em;
+      font-size: 1em;
     }
-    
+  
     footer a {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-    
-    }
-    
-/*RESPONSIVE "GRANDE" TABLETTE*/
-    
-@media (min-width: 769px) and (max-width: 1199px) {
-    
+  }
+  
+  /*RESPONSIVE "GRANDE" TABLETTE*/
+  
+  @media (min-width: 769px) and (max-width: 1199px) {
     /*Body*/
-    
+  
     body {
-        width: 100%;
+      width: 100%;
     }
-    
+  
     /*Header*/
-    
+  
     header {
-        width: 100%;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 15px;
+      width: 100%;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 15px;
     }
-            
+  
     header img {
-        margin-left: 7.5%;
-        width: 26%;
-        max-width: 130px;
+      margin-left: 7.5%;
+      width: 26%;
+      max-width: 130px;
     }
-    
+  
     header nav {
-        margin-right: 7.5%;
+      margin-right: 7.5%;
     }
-    
+  
     /*Section 1*/
-    
+  
     #section1 {
-        width: 85%;
-        margin: auto;
+      width: 85%;
+      margin: auto;
     }
-    
+  
     #filtres {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
-    
+  
     #f_bord {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
-    
+  
     #section1 a {
-        font-size: 1em;
-        margin-left: 0px;
-        margin-right: 5px;
-        margin-bottom: 0px;
-        padding: 0px 10px 0px 0px;
+      font-size: 1em;
+      margin-left: 0px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      padding: 0px 10px 0px 0px;
     }
-    
+  
     #child {
-        padding-left: 12px;
-        padding-right: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
     }
-    
+  
     #f_bord i {
-        margin-right: 5px;
+      margin-right: 5px;
     }
-    
+  
     /*Section 2*/
-    
+  
+    #grosse_section {
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  
     #section2 {
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
     }
-    
-    #Hébergements_à_Marseille {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto; 
-        height: auto; 
-    }
-    
+  
     #Hébergements {
-        width: 600px;
-        margin: auto;
-        margin-bottom: 25px;
-        padding-left: 0px;
+      width: 600px;
+      margin: auto;
+      margin-bottom: 25px;
+      padding-left: 0px;
     }
-    
+  
     #hébergements {
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
+  
     .heb_bord {
-        width: 186px;
-        margin: auto;
-        margin-bottom: 15px;
+      width: 186px;
+      margin: auto;
+      margin-bottom: 15px;
     }
-    
+  
     #section2 h3 {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-    
+  
     #section2 p {
-        font-size: 0.8em;
+      font-size: 0.8em;
     }
-    
-    #Hébergements_à_Marseille i {
-        font-size: 0.8em;
+  
+    #section2 i {
+      font-size: 0.8em;
     }
-    
+  
     #aff {
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15px;
-        margin-bottom: 20px;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+      margin-bottom: 20px;
     }
-    
+  
     .img {
-        width: 180px;
+      width: 180px;
     }
-    
-    article {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
+  
+    #sectpop {
+      width: 100%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
+  
     #pop {
-        width: 600px;
+      width: 600px;
     }
-    
+  
     .pop_bord {
-        width: 600px;
+      width: 600px;
     }
-    
+  
     .img2 {
-        width: 200px;
+      width: 200px;
     }
-    
+  
     .ensembleetoile2 {
-        padding-top: 60px;
+      padding-top: 60px;
     }
-    
+  
     /*Section 3*/
-    
+  
     #section3 {
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
+  
     #section3 h2 {
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
     }
-    
+  
     #Activités_à_Marseille {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
-    
+  
     .act_bord {
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
-    .grandeimg, .moyimg {
-        width: 600px;
-        height: 120px;
+  
+    .grandeimg,
+    .moyimg {
+      width: 600px;
+      height: 120px;
     }
-    
-    #image2, #image3 {
-        width: 600px;
-        height: 120px; 
+  
+    #image2,
+    #image3 {
+      width: 600px;
+      height: 120px;
     }
-    
-    #Vieux, #Iles, #Parc {
-        margin-bottom: 35px;
+  
+    #Vieux,
+    #Iles,
+    #Parc {
+      margin-bottom: 35px;
     }
-    
+  
     /*Footer*/
-    
+  
     footer {
-        width: 100%;
+      width: 100%;
     }
-    
-    #propos, #NosHeb, #Assistance {
-        width: 20%;
-        margin: auto;
+  
+    #propos,
+    #NosHeb,
+    #Assistance {
+      width: 20%;
+      margin: auto;
     }
-
-    }
+  }
+  
